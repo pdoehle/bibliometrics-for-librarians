@@ -7,21 +7,20 @@ title: "Syllabus"
 ---
 ## Part 1 - Tools for the Job
 *Weeks 1-8*
-- Introduction
+- Introduction to R and R Studio
 - R Syntax
-- Data with R and Tidyverse
+- Cleaning and Normalizing Data with R and Tidyverse
 - Data visualization with ggplot2
-- R and API's
 
-## Part 2 - Working with Data
+## Part 2 - Working with Bibliometric Data
 *Weeks 9-16*
 - The OpenCitations Corpus and Other Data Sources
-- Cleaning and Normalization of Data
+- R and APIs: Introduction to rcrossref and citecorp
+- A Review of Bibliometric Methods
 - Confidence in Results
 - Introduction to Graphs
-- Centrality
-- Connectedness
-- Clustering
+- Centrality, Connectedness, & Clustering
+
 
 ## Part 3 - Applying the Knowledge
 *Weeks 17-18*
