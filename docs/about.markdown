@@ -26,7 +26,7 @@ The instructors propose to provide recorded demos for students to review. We wil
 
 ## Instructors
 ### Clarke Iakovakis
-[Clarke Iakovakis](https://info.library.okstate.edu/clarke-iakovakis) is the Scholarly Services Librarian at Oklahoma State University.
+[Clarke Iakovakis](https://info.library.okstate.edu/clarke-iakovakis) is the Scholarly Services Librarian at Oklahoma State University. He has an MS in Information Studies from the University of Texas. He has worked in libraries for over 10 years in a variety of capacities. He is interested in scholarly publishing, open access, copyright, and bibliometric analysis. He is a certified Carpentries instructor and has taught programming in a variety of settings, including a full course on "Working with Scholarly Literature in R" at the Force Scholarly Communications Institute (see https://ciakovx.github.io/fsci_syllabus.html).
 
 ### Phillip Doehle
 [Phillip Doehle](https://info.library.okstate.edu/ld.php?content_id=52357494) is the Digital Services Librarian at Oklahoma State University (OSU). He has organized OSU's Software/Data Carpentry workshops since 2017 and taught at the workshops since 2016. The program has introduced over 400 researchers to introductory data-science techniques over the past five years. Before taking his position with the library, he was the Program Coordinator at the OSU High-Performance Computing Center where he organized education and outreach events for the center. Phillip has a Master's in Applied Mathematics from OSU.
