@@ -22,7 +22,7 @@ title: Bibliometrics for Librarians
 email: doehle@okstate.edu
 description: >- # this means to ignore newlines until "baseurl:"
         Bibliometric tools and techniques for librarians.
-baseurl: "/course" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "https://pdoehle.github.io/bibliometrics-for-librarians/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: pdoehle 
