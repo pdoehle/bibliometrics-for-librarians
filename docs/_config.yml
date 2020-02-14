@@ -21,13 +21,11 @@
 title: Bibliometrics for Librarians
 email: doehle@okstate.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+        Bibliometric tools and techniques for librarians.
 baseurl: "/course" # the subpath of your site, e.g. /blog
 url: "https://pdoehle.github.io/bibliometrics-for-librarians/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: 
+github_username: pdoehle 
 
 # Build settings
 theme: minima

@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This course introduces librarians to bibliometric tools and techniques. Learners will be able to ...
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- Outcome 1
+- Outcome 2
+- Outcome 3
 
 
-[jekyll-organization]: https://github.com/jekyll
+## Instructors
+### Clarke Iakovakis
+[Clarke Iakovakis](https://info.library.okstate.edu/clarke-iakovakis) is the Scholarly Services Librarian at Oklahoma State University.
+
+### Phillip Doehle
+[Phillip Doehle](https://info.library.okstate.edu/ld.php?content_id=52357494) is the Digital Services Librarian at Oklahoma State University.
