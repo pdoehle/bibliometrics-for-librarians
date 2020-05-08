@@ -5,23 +5,30 @@
 layout: home
 title: "Syllabus"
 ---
-## Part 1 - Tools for the Job
-*Weeks 1-8*
-- Introduction to R and R Studio
-- R Syntax
-- Cleaning and Normalizing Data with R and Tidyverse
-- Data visualization with ggplot2
 
-## Part 2 - Working with Bibliometric Data
-*Weeks 9-16*
-- The OpenCitations Corpus and Other Data Sources
-- R and APIs: Introduction to rcrossref and citecorp
-- A Review of Bibliometric Methods
-- Confidence in Results
-- Introduction to Graphs
+This syllabus is subject to change.
+
+## Session 1 - Introduction to Bibliometric Methodologies & Indicators
+
+- Bibliometric History & Context
+- Uses and Misuses of Bibliometrics
+- Goals & Applications of this Course
+
+## Session 2 - Bibliometric Data Sources
+
+- The Bibliometrics Data Landscape
+- OpenCitations Corpus
+- A Brief Introduction to R
+- Gathering data with rcrossref and citecorp
+
+## Session 3 - Doing Bibliometrics Part 1
+
 - Centrality, Connectedness, & Clustering
+- h-index, Impact Factor, and Eigenfactor
+- Project Overview: Analyzing Article Influence
 
 
-## Part 3 - Applying the Knowledge
-*Weeks 17-18*
-- Open Project: Quantitative Concept Mapping
+## Session 4 - Doing Bibliometrics Part 2: 
+
+- Project Discussion & Recap
+- Next steps
