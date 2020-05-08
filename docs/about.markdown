@@ -8,7 +8,7 @@ This course introduces librarians to bibliometric tools and techniques. Learners
 
 - Outcome 1: Understand basics of bibliometric methodology, bibliometric indicators, and sources for bibliographic metadata and citation data for use in bibliometric analysis.
 - Outcome 2: Use R packages rcrossref and citecorp to access citation metadata from the Open Citations Corpus.
-- Outcome 3:  Create a visualization from bibliometric metadata.
+- Outcome 3:  Complete a bibliometrics analysis project.
 
 
 ## Brief Description: 
