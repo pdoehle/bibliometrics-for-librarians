@@ -23,19 +23,8 @@ For a more detailed walkthrough of this entire lesson, including instructions fo
 This walkthrough is distributed under a [https://creativecommons.org/licenses/by/4.0/](Creative Commons Attribution 4.0 International (CC BY 4.0) License). 
 
 
-<div>
-    <br>
-    <a>
-        <img src="images/ccby.png" style="width: 400px;">
-    </a>
-</div>
-
 # Jupyter Notebooks
 
-<div>
-        <a>
-            <img src="images/jupyter.png" style="width: 400px;">
-</a></div>
 
 Jupyter Notebooks have two different keyboard input modes:
 
@@ -93,14 +82,6 @@ print("You just ran the cell and inserted a new cell below it")
 Notice the text in the above cells that starts with a hash **#** character. The hash indicates a **comment**. Anything following the hash symbol will not be evaluated. 
 
 # R Basics
-
-<div>
-    <br>
-    <a>
-        <img src="images/R.png" style="width: 200px;">
-    </a>
-    <br>
-</div>
 
 R is more of a programming language than a statistics program. It was started by Robert Gentleman and Ross Ihaka from the University of Auckland in 1995. They described it as “a language for data analysis and graphics.”1 You can use R to create, import, and scrape data from the web; clean and reshape it; visualize it; run statistical analysis and modeling operations on it; text and data mine it; and much more.
 
