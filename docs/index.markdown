@@ -40,13 +40,14 @@ Download Slides:
 - OpenCitations Corpus
 - Gathering data with rcrossref and citecorp
 
-## Session 3 - Doing Bibliometrics Part 1
+## Session 3 - Network Analysis
 
 - Centrality, Connectedness, & Clustering
-- Project Overview: Analyzing Article Influence
+- Analyzing Article Influence & Co-Authorship Networks
 
 
-## Session 4 - Doing Bibliometrics Part 2: 
+## Session 4 - Altmetrics, Summing Up & Next Steps
 
-- Project Discussion & Recap
-- Next steps
+- Altmetrics & Article Level Metrics
+- Humanities & Social Sciences
+- Approaching a biliometric analysis project
