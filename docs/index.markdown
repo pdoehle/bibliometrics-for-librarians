@@ -30,6 +30,7 @@ Download Slides:
 4. Click on **Getting Started with Jupyter Notebooks and R.ipynb**
 5. Watch the video below to use this notebook. This will introduce you to the Azure Notebooks environment and some basics of using R.
 
+<iframe width="917" height="573" src="https://www.youtube.com/embed/hnFio5WCMJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 		
 
