@@ -39,10 +39,23 @@ Download Slides:
 
 ## Session 2 - Citation Metrics and Bibliometric Data Sources
 
-- Explaining citation metrics: h-index, Impact Factor, Eigenfactor and more
-- The Bibliometrics Data Landscape
-- OpenCitations Corpus
-- Gathering data with rcrossref and citecorp
+- Normalized citation indicators
+	- Citation normalization
+	- Field normalized citation impact
+	- Field classification
+	- Relative Citation Ratio
+	- Percentiles
+- Journal-based indicators
+	- Journal Impact Factor
+	- CiteScore
+	- H-index
+	- Pushback and limitations
+- Data sources
+	- Web of Science & Scopus
+	- Dimensions
+	- Google Scholar
+	- Open Citations Corpus
+	- Publish or Perish
 
 <iframe src="https://widgets.figshare.com/articles/12662906/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe>
 
