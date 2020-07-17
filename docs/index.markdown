@@ -25,8 +25,6 @@ Download Slides:
 
 **Exercises & Videos**
 
-**NOTE** It has come to my attention that as of last night (7/16), Azure Notebooks is not able to install packages and is giving a warning message that packages cannot be installed. I am looking into this and will be in touch with my findings. As an alternative, you can install Anaconda at <https://docs.anaconda.com/anaconda/install/> and then download the IPYNB file from your Azure Notebook, then open it in Anaconda to run it locally. I will keep you posted.
-
 1. Go to <https://notebooks.azure.com> and click **Sign In** to create an account. If you have an existing account with Microsoft or Outlook, you may use it.
 2. While signed into your account, go to <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics>
 3. Click the **Clone** button in the upper right corner and clone this project. This will create a duplicate of the project in your own Azure Notebooks projects
@@ -58,6 +56,13 @@ Download Slides:
 	- Publish or Perish
 
 <iframe src="https://widgets.figshare.com/articles/12662906/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe>
+
+**Video**
+1. Open the **Bibliometrics Lesson 1.ipynb** file in your Azure Notebook
+2. Read the entire document and execute all the code chunks. Watch the below video for help.
+
+<iframe width="904" height="550" src="https://www.youtube.com/embed/kU-ZGNpVlw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Session 3 - Network Analysis
 
