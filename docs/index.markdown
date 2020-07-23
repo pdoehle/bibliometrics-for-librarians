@@ -68,11 +68,13 @@ title: "Syllabus"
 
 ## Session 3 - Network Analysis
 
-- Bibliographic Network Analysis
+- Bibliographic Network Analysis Concepts
+- Bibliographic Network Analysis Tools
 - Centrality, Connectedness, & Clustering
-- Analyzing Article Influence & Co-Authorship Networks
 
 ### Session 3 Slides
+
+<iframe src="https://widgets.figshare.com/articles/12698705/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe>
 
 ### Session 3 Exercises and Video
 
