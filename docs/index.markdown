@@ -76,6 +76,11 @@ title: "Syllabus"
 
 ### Session 3 Exercises and Video
 
+#### Network Analysis
+1. Navigate to <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics-network> and clone the notebook into your Azure Notebooks environment.
+2. homework01.ipynb is a notebook designed to help you build intuition around centrality measures.
+3. homework02.ipynb is a notebook designed to introduce you to some network functions using the **bibliometrix** package in R.
+
 #### VOSviewer
 1. Complete steps 1-5 Exercise 1 from Session 2, "Getting article data with Dimensions" at <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics/html/Bibliometrics%20Lesson%201.ipynb>
 2. Click **Export for Bibliometric Mapping** and click **Export.** You will get an email when the export is ready for download. At that point, in Dimensions, click your name in the right hand corner and click Export Center. Click Download to download the file to your computer.
