@@ -4,6 +4,10 @@
 
 layout: home
 title: "Syllabus"
+   toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
 ---
 
 ## Session 1 - Introduction to Bibliometric Methodologies & Indicators
@@ -20,10 +24,10 @@ title: "Syllabus"
 		- number of citations
 		- citation rate
 
-Download Slides:
+### Session 1 Slides:
 <iframe src="https://widgets.figshare.com/articles/12631400/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe>
 
-**Exercises & Videos**
+### Session 1 Exercises & Videos
 
 1. Go to <https://notebooks.azure.com> and click **Sign In** to create an account. If you have an existing account with Microsoft or Outlook, you may use it.
 2. While signed into your account, go to <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics>
@@ -55,9 +59,11 @@ Download Slides:
 	- Open Citations Corpus
 	- Publish or Perish
 
+
+### Session 2 Slides
 <iframe src="https://widgets.figshare.com/articles/12662906/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe>
 
-**Video**
+## Session 2 Exercises and Video
 1. Open the **Bibliometrics Lesson 1.ipynb** file in your Azure Notebook
 2. Read the entire document and execute all the code chunks. Watch the below video for help.
 
@@ -66,8 +72,36 @@ Download Slides:
 
 ## Session 3 - Network Analysis
 
+- Bibliographic Network Analysis
 - Centrality, Connectedness, & Clustering
 - Analyzing Article Influence & Co-Authorship Networks
+
+### Session 3 Slides
+
+### Session 3 Exercises and Video
+
+#### VOSviewer
+1. Complete steps 1-5 Exercise 1 from Session 2, "Getting article data with Dimensions" at https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics/html/Bibliometrics%20Lesson%201.ipynb
+2. Click **Export for Bibliometric Mapping** and click **Export.** You will get an email when the export is ready for download. At that point, in Dimensions, click your name in the right hand corner and click Export Center. Click Download to download the file to your computer.
+3. Download VOSviewer at https://www.vosviewer.com/download, or launch it in your browser using the **Web start** option on that page
+4. In VOS Viewer, Go to **File > Map > Create**
+5. Choose Create a map based on bibliographic data
+6. Choose **Read data from bibliographic database files**
+7. Click the **Dimensions** tab and upload the file you downloaded in step 2
+8. To create a Journal co-citation network:
+* Under Type of Analysis, click **Co-citation**
+* Under Unit of Analysis, click **Cited sources**
+* Under Counting Method, click **Fractional counting**
+* Choose 30 for the Minimum number of citations of a source. This means that a journal will not be included unless it has at least 30 items pointing to it in this set of results. Click Next.
+* Choose the maximum number of sources to be selected allowable. Click Next.
+* Review the sources, citations, and total link strength. Click Finish.
+* It may warn you that some of the items in the network are not connected to each other. Click Yes to show the largest set of connecting items.
+* Play around with the various settings on the right side of the page.
+9. Experiment with the other types of visualizations and units of analysis.
+
+
+
+
 
 
 ## Session 4 - Altmetrics, Summing Up & Next Steps
