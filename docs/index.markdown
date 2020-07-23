@@ -90,7 +90,7 @@ title: "Syllabus"
 4. In VOS Viewer, Go to **File > Map > Create**
 5. Choose Create a map based on bibliographic data
 6. Choose **Read data from bibliographic database files**
-7. Click the **Dimensions** tab and upload the file you downloaded in step 2
+7. Click the **Dimensions** tab and upload the file you downloaded in step 2. Note that this file is also available in the Azure Notebooks for this session at <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics-network>, called **dimensions_network.csv**
 8. To create a Journal co-citation network:
 * Under Type of Analysis, click **Co-citation**
 * Under Unit of Analysis, click **Cited sources**
@@ -101,6 +101,7 @@ title: "Syllabus"
 * It may warn you that some of the items in the network are not connected to each other. Click Yes to show the largest set of connecting items.
 * Play around with the various settings on the right side of the page.
 9. Experiment with the other types of visualizations and units of analysis.
+10. Read Brett Williams, “Dimensions & VOSViewer Bibliometrics in the Reference Interview,” *code4lib 47*, <https://journal.code4lib.org/articles/14964> with screenshots of this process and suggestions for incorporating it into library reference work.
 
 
 
