@@ -103,5 +103,5 @@ title: "Syllabus"
 ## Session 4 - Altmetrics, Summing Up & Next Steps
 
 - Altmetrics & Article Level Metrics
-- Humanities & Social Sciences
-- Approaching a biliometric analysis project
+- The state & future of open citations
+- Next steps
