@@ -4,6 +4,7 @@
 
 layout: home
 title: "Syllabus"
+output:
    toc: true
     toc_float:
       collapsed: false
