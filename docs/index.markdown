@@ -77,9 +77,9 @@ title: "Syllabus"
 ### Session 3 Exercises and Video
 
 #### VOSviewer
-1. Complete steps 1-5 Exercise 1 from Session 2, "Getting article data with Dimensions" at https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics/html/Bibliometrics%20Lesson%201.ipynb
+1. Complete steps 1-5 Exercise 1 from Session 2, "Getting article data with Dimensions" at <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics/html/Bibliometrics%20Lesson%201.ipynb>
 2. Click **Export for Bibliometric Mapping** and click **Export.** You will get an email when the export is ready for download. At that point, in Dimensions, click your name in the right hand corner and click Export Center. Click Download to download the file to your computer.
-3. Download VOSviewer at https://www.vosviewer.com/download, or launch it in your browser using the **Web start** option on that page
+3. Download VOSviewer at <https://www.vosviewer.com/download>, or launch it in your browser using the **Web start** option on that page
 4. In VOS Viewer, Go to **File > Map > Create**
 5. Choose Create a map based on bibliographic data
 6. Choose **Read data from bibliographic database files**
