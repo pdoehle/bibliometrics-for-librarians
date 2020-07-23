@@ -4,11 +4,6 @@
 
 layout: home
 title: "Syllabus"
-output:
-   toc: true
-    toc_float:
-      collapsed: false
-      smooth_scroll: false
 ---
 
 ## Session 1 - Introduction to Bibliometric Methodologies & Indicators
