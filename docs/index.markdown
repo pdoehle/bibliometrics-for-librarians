@@ -108,8 +108,12 @@ title: "Syllabus"
 
 
 
-## Session 4 - Altmetrics, Summing Up & Next Steps
+## Session 4 - Eigenfactor Metrics, Altmetrics, Metrics in Evaluation, & Next Steps
 
-- Altmetrics & Article Level Metrics
-- The state & future of open citations
-- Next steps
+- Eigenfactor Metrics
+- Altmetrics
+- Metrics in Evaluation & Next Steps
+
+### Session 4 Slides
+
+<iframe src="https://widgets.figshare.com/articles/12739988/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe>
