@@ -1,0 +1,105 @@
+---
+title: An R Markdown document converted from "./intro_to_bibliometrics_network/homework02.ipynb"
+output: html_document
+---
+
+# Homework 02 - Plot a Graph with Bibliometrix
+
+For the second part of the homework, you will plot a co-authorship network using the R package Bibliometrix. Click in each code cell and type `Shift` + `Enter` to run the code. The first one will take quite a bit of time since both packages are large. You may want to start it and come back after doing something else. You only need to install new packages once.
+
+```{r}
+# Install packages - Only need to run this once!
+install.packages('tidyverse', verbose = FALSE)
+install.packages('bibliometrix', verbose = FALSE)
+```
+
+```{r}
+update.packages('rlang')
+```
+
+```{r}
+# Load packages
+library('bibliometrix')
+library('tidyverse')
+```
+
+Bibliometrix will load files from different databases and convert them to a `bibliometric dataframe`. We will use the dimensions file from earlier in the course.
+
+```{r}
+# Read in data from file
+dimensions <- convert2df(file = 'dimensions.csv', dbsource = 'dimensions', format = 'csv')
+```
+
+```{r}
+dimensions %>% head()
+```
+
+Right now `dimensions` is a dataframe. We need to convert it into a graph object. There are many different graphs we could build from these data. We will build a co-authorship graph.
+
+```{r}
+# Convert the data to a network object
+dimensions_network <- biblioNetwork(dimensions, analysis = 'co-occurrences', network = 'authors')
+```
+
+`networkPlot()` plots networks. It also calculates several node statistics automatically.
+
+```{r}
+net_plot <- networkPlot(dimensions_network, n = 'all')
+```
+
+This is too many nodes! We cannot see what is happening; fortunately, `networkPlot()` actually returns several objects to help us examine the data. One is called Cluster Results. We access Cluster Results by appending `$cluster_res` to the end of our graph (`net_plot`). `as_tibble()` converts the data into a [tibble](https://tibble.tidyverse.org/) and makes working with the data a bit more convenient.
+
+```{r}
+# Access results
+results <- as_tibble(net_plot$cluster_res)
+# Look at the first few lines
+results %>% head()
+```
+
+`networkPlot()` automatically calculates betweenness Centrality, Closeness Centrality and Page Rank (related to Eigenvector Centrality) for each node. It also groups nodes into clusters (*partitions* in math literature). Let's plot just one of these clusters. The following code counts how many lines from the data belong to each cluster and arranges clusters from biggest to smallest.
+
+```{r}
+# 1. Select cluster column
+# 2. Group clusters by identifier
+# 3. Count clusters
+# 4. Arrange in descending order
+# 5. Look at the first few lines
+results %>% select(cluster) %>% group_by(cluster) %>% tally %>% arrange(desc(n)) %>% head()
+```
+
+It looks like group 101 has the most nodes (thirty-five). We will plot that cluster. Graphs are stored in the computer as an adjacency matrix. We will select only the rows and columns of the matix that belong to the 101 cluster.
+
+```{r}
+# Get the indices of all the nodes that are in the 101 group.
+members <- net_plot$cluster_obj$membership == 101
+# Create a sub-matrix by selecting with row, column notation ([rows, columns])
+sub_matrix <- net_plot$graph[members, members]
+```
+
+```{r}
+# Plot the graph
+sub_plot <- networkPlot(sub_matrix, n = 'all', label = FALSE)
+```
+
+We can look at the results using `$cluster_res`.
+
+```{r}
+# Look at the centrality measures
+sub_plot$cluster_res
+```
+
+## Next Steps
+
+Bibliometrix is a rich package with a lot of options. It can compute all (and much more) of the metrics we discussed in the class slides. I recommend the following additional resources:
+
+- [Bibliometrix Webpage](https://bibliometrix.org/index.html)
+- [Biblioshiny](https://bibliometrix.org/Biblioshiny.html)
+  - A graphical user interface (GUI) for the Bibliometrix package.
+- [A Brief Introduction to Bibliometrix](https://cran.r-project.org/web/packages/bibliometrix/vignettes/bibliometrix-vignette.html)
+- [VOSviewer](https://www.vosviewer.com/)
+  - Software for plotting citation networks that does not require coding.
+
+```{r}
+
+```
+
