@@ -155,7 +155,8 @@ This step will allow you to open and execute the Rmd (R Markdown) files in the R
 
 1. Go to <https://www.r-project.org/> to download R. Click on CRAN (Comprehensive R Archive Network) under Download, and scroll down to your country. Select the download link corresponding to the city that is geographically closest to you. Open the file and install.
 2. Go to <https://www.rstudio.com/products/RStudio/#Desktop> to download the RStudio desktop software. Open the file and install.
-3. Download the following Rmd files. Navigate to the page, then press Ctrl + S to save the file. Save it to the same directory you saved your Azure Notebooks
+3. Download the following Rmd files. Navigate to the page, then press Ctrl + S to save the file. Save each into their respective directories (i.e. save **bibliometrics_lesson_1.Rmd** into the **intro_to_bibliometrics** folder, and save **homework02.Rmd** into the **intro_to_bibliometrics_network** folder. This will ensure the data loads properly.)
+
 * Bibliometrics Lesson 1: <https://raw.githubusercontent.com/pdoehle/bibliometrics-for-librarians/master/notebooks/intro_to_bibliometrics/bibliometrics_lesson_1.Rmd>
 * homework02: <https://raw.githubusercontent.com/pdoehle/bibliometrics-for-librarians/master/notebooks/intro_to_bibliometrics_network/homework02.Rmd>
 
