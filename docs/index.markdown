@@ -117,3 +117,45 @@ title: "Syllabus"
 ### Session 4 Slides
 
 <iframe src="https://widgets.figshare.com/articles/12739988/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe>
+
+## `rlang` issues in Azure Notebooks
+
+Given that Azure Notebooks is going away, and the bibliometrix package is so much more powerful in R Studio, it is my strong recommendation that if you want to explore this further, you follow Option 2 below. I have not found a satisfactory solution to the namespace issue.
+
+## Migrating files from Azure Notebooks
+
+As you likely noticed in Azure Notebooks, the project is ending in October. Therefore if you want to save the notebooks and run them, you will need to download the files and install some software on your computer.
+
+First, download the project files from Azure. Naviate to your project home in Azure Notebooks (e.g. <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics>). Click **Download Project**. Create a new folder on your computer called **intro_to_bibliometris**. Save the zip file to that folder and unzip the file. Do this for the other Azure Notebook we used in Session 3 (e.g. <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics-network>)
+
+### Option 1: Using Anaconda to open the IPYNB files.
+
+This step will allow you to open and execute the IPYNB files essentially just as they looked in Azure.
+
+1. Download and install Anaconda: https://docs.anaconda.com/anaconda/install/
+2. Following [these instructions](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/), open Anaconda and select **Environments** to create an new environment. Click **Create**.
+3. In Name, type **intro_to_bibliometrics**. Next to Packages, select **Python 3.7** and **R**. Select **r** from the dropdown menu. Click **Create**.
+4. Click the arrow next to **intro_to_bibliometrics** and select **Open with Jupyter Notebook**. It will open in a web browser.
+5. Navigate to the folder you saved the Azure Notebooks in. You can now open the following IPYNB files and execute the code as you did previously:
+
+From **intro_to_bibliometrics**
+* Getting Started with Jupyter Notebooks and R.ipynb
+* Bibliometrics Lesson 1.ipynb
+
+From **intro_to_bibliometrics_network**
+* homework02.ipynb
+
+Note that the homework01.ipynb file is written in Python, not R. To open it, you do not need to create a new environment. Instead, do the following:
+1. Open Anaconda. Under Jupyter Notebooks, click **Launch**. It will open in a web browser.
+2. Navigage to the folder you saved the Azure Notebooks in. You can now open homework01.ipynb and execute the code as you did previously.
+
+### Option 2: Using R and R Studio to open Bibliometrics Lesson 1 and homework02 Rmd files.
+
+This step will allow you to open and execute the Rmd (R Markdown) files in the R Studio environment. While the contents of the files are precisely the same, you will execute the code within R Studio rather than Jupyter Notebooks.
+
+1. Go to <https://www.r-project.org/> to download R. Click on CRAN (Comprehensive R Archive Network) under Download, and scroll down to your country. Select the download link corresponding to the city that is geographically closest to you. Open the file and install.
+2. Go to <https://www.rstudio.com/products/RStudio/#Desktop> to download the RStudio desktop software. Open the file and install.
+3. Download the following Rmd files. Navigate to the page, then press Ctrl + S to save the file. Save it to the same directory you saved your Azure Notebooks
+* Bibliometrics Lesson 1: <https://raw.githubusercontent.com/pdoehle/bibliometrics-for-librarians/master/notebooks/intro_to_bibliometrics/bibliometrics_lesson_1.Rmd>
+* homework02: <https://raw.githubusercontent.com/pdoehle/bibliometrics-for-librarians/master/notebooks/intro_to_bibliometrics_network/homework02.Rmd>
+
