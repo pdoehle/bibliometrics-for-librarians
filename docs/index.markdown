@@ -126,7 +126,12 @@ Given that Azure Notebooks is going away, and the bibliometrix package is so muc
 
 As you likely noticed in Azure Notebooks, the project is ending in October. Therefore if you want to save the notebooks and run them, you will need to download the files and install some software on your computer.
 
-First, download the project files from Azure. Naviate to your project home in Azure Notebooks (e.g. <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics>). Click **Download Project**. Create a new folder on your computer called **intro_to_bibliometris**. Save the zip file to that folder and unzip the file. Do this for the other Azure Notebook we used in Session 3 (e.g. <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics-network>)
+First, download the project files from Azure. Naviate to your project home in Azure Notebooks (e.g. <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics>). Click **Download Project**. Create a new folder on your computer called **intro_to_bibliometris**. Save the zip file to that folder and unzip the file. Do this for the other Azure Notebook we used in Session 3 (e.g. <https://notebooks.azure.com/clarke-iakovakis/projects/intro-to-bibliometrics-network>).
+
+These are also archived on GitHub:
+
+* [intro_to_bibliometrics](https://github.com/pdoehle/bibliometrics-for-librarians/tree/master/notebooks/intro_to_bibliometrics)
+* [intro_to_biliometrics_network](https://github.com/pdoehle/bibliometrics-for-librarians/tree/master/notebooks/intro_to_bibliometrics_network)
 
 ### Option 1: Using Anaconda to open the IPYNB files.
 
