@@ -140,8 +140,8 @@ This step will allow you to open and execute the IPYNB files essentially just as
 1. Download and install Anaconda: https://docs.anaconda.com/anaconda/install/
 1. Go to <https://www.r-project.org/> to download R. Click on CRAN (Comprehensive R Archive Network) under Download, and scroll down to your country. Select the download link corresponding to the city that is geographically closest to you. Open the file and install.
 2. Install IR kernel:
-* On PC, search for **Anaconda Prompt** in your computer, right click, and run As Adminstrator. In the prompt, type `conda install -c r r-irkernel`. During the installation process, Anaconda might ask if you `want to proceed ([y]/n)?`` Just type ‘y’.
-* On Mac, open terminal. Enter `conda config --add channels r` then `conda install --yes r-irkernel`
+	* On PC, search for **Anaconda Prompt** in your computer, right click, and run As Adminstrator. In the prompt, type `conda install -c r r-irkernel`. During the installation process, Anaconda might ask if you `want to proceed ([y]/n)?`` Just type ‘y’.
+	* On Mac, open terminal. Enter `conda config --add channels r` then `conda install --yes r-irkernel`
 4. Following [these instructions](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/), open Anaconda and select **Environments** to create an new environment. Click **Create**.
 3. In Name, type **intro_to_bibliometrics**. Next to Packages, select **Python 3.7** and **R**. Select **r** from the dropdown menu. Click **Create**.
 4. Click the arrow next to **intro_to_bibliometrics** and select **Open with Jupyter Notebook**. It will open in a web browser.
